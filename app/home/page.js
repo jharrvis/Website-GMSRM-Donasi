@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <main>
       <Slideshow />
-      <Container className="p-6">
+      <Container className="py-6">
         <Typography variant="h4" component="h1" align="center" gutterBottom>
           Selamat Datang di Gua Maria Sancta Rosa Mystica
         </Typography>
@@ -29,7 +29,7 @@ export default function HomePage() {
         </Box>
         
         {/* Aktivitas */}
-        <Box my={4} p={5} bgcolor="#EEEEEE">
+        <Box my={4} py={5} bgcolor="#EEEEEE" sx={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
           <Container>
             <Typography variant="h4" component="h2" align="center" gutterBottom>
               Aktivitas

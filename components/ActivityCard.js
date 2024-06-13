@@ -1,5 +1,6 @@
 'use client';
 import * as React from 'react';
+import Link from 'next/link';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -21,12 +22,14 @@ export default function ActivityCard({ activity }) {
         <Typography variant="h5" component="h3">
           {activity.title}
         </Typography>
-        <Typography variant="body1">
+        <Typography variant="body1" sx={{ fontSize: '0.875rem', marginTop: '8px' }}>
           {activity.description}
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Baca Selengkapnya</Button>
+        <Link href={activity.link} target="_blank" rel="noopener noreferrer">
+            <Button size="small">Baca Selengkapnya</Button>
+        </Link>
       </CardActions>
     </Card>
   );
