@@ -4,6 +4,7 @@ import { Box, Container, Typography, Button, Card, CardContent, CardActions, Gri
 import { LoadScript, GoogleMap, Marker } from '@react-google-maps/api';
 import Slideshow from "../../components/Slideshow";
 import ActivityList from '../../components/ActivityList'; // Import komponen ActivityCard
+import DonationCTA from '../../components/DonationCTA';
 
 export default function HomePage() {
 
@@ -39,11 +40,7 @@ export default function HomePage() {
         </Box>
         
         {/* Tombol Donasi */}
-        <Box textAlign="center" my={4}>
-          <Button variant="contained" color="primary" size="large">
-            Donasi Sekarang
-          </Button>
-        </Box>
+        <DonationCTA />
       </Container>
     </main>
   );

@@ -47,7 +47,7 @@ const Header = () => {
               alt="Logo"
               style={{ height: "40px", marginRight: "10px" }}
             />
-            <Typography variant="h6" component="span">
+            <Typography variant="h6" component="span" sx={{ fontSize: '1.2rem' }}>
               Gua Maria Sancta Rosa Mystica
             </Typography>
           </Box>
