@@ -1,3 +1,5 @@
+import ConfirmationForm from "@/components/ConfirmationForm";
+
 const rekening = [{
   nomor : '0133693693',
   nama : 'PGPM ST PIUS X (Gua Maria Rosa Mystica)',
@@ -7,10 +9,10 @@ export default function DonasiPage() {
     return (
       <main className="p-5">
         <div className="bg-white py-5">
-          <div className="container p-8 mx-auto xl:px-0 flex w-full flex-col mt-4 items-center justify-center text-center">
+          <div className="container p-8 mx-auto xl:px-0 flex w-full flex-col mt-4 items-center justify-center">
               <div className="text-sm font-bold tracking-wider text-indigo-600 uppercase">Donation</div>
               <h2 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl lg:text-slate-800">Donasi</h2>
-              <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl lg:text-slate-600">Dukungan Anda sangat berarti bagi kami, Salurkan donasi anda ke Rekening BCA Kami</p>
+              <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl lg:text-slate-600 text-center">Dukungan Anda sangat berarti bagi kami, Salurkan donasi anda ke Rekening BCA Kami</p>
               <div className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white p-12 rounded-md">
                 <div className="flex justify-center">
                 <svg width="100pt" height="auto" viewBox="0 0 700 393" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +39,7 @@ export default function DonasiPage() {
                 </div>
               {rekening.map((item, id) =>
                 (
-                  <div key={id}>
+                  <div key={id} className="text-center">
                     <h2 className="text-4xl font-bold">{item.nomor}</h2>
                     <h4>{item.nama}</h4>
                   </div>
@@ -45,6 +47,7 @@ export default function DonasiPage() {
               )
               }
               </div>
+              <ConfirmationForm />
           </div>
         </div>
       </main>
