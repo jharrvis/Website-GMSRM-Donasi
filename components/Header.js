@@ -40,14 +40,23 @@ const Header = () => {
         <Link href="/" passHref>
           <Box
             component="a"
-            sx={{ color: "black", display: "flex", alignItems: "center", textDecoration: 'none' }}
+            sx={{
+              color: "black",
+              display: "flex",
+              alignItems: "center",
+              textDecoration: "none",
+            }}
           >
             <img
               src="/logo.webp"
               alt="Logo"
               style={{ height: "40px", marginRight: "10px" }}
             />
-            <Typography variant="h6" component="span" sx={{ fontSize: '1.2rem' }}>
+            <Typography
+              variant="h6"
+              component="span"
+              sx={{ fontSize: "1.2rem" }}
+            >
               GMSRM
             </Typography>
           </Box>
@@ -58,7 +67,7 @@ const Header = () => {
               variant="button"
               component="a"
               className="hover:text-gray-400"
-              sx={{ color: "black", marginRight: 2, textDecoration: 'none' }}
+              sx={{ color: "black", marginRight: 2, textDecoration: "none" }}
             >
               Beranda
             </Typography>
@@ -68,7 +77,7 @@ const Header = () => {
               variant="button"
               component="a"
               className="hover:text-gray-400"
-              sx={{ color: "black", marginRight: 2, textDecoration: 'none' }}
+              sx={{ color: "black", marginRight: 2, textDecoration: "none" }}
             >
               Tentang Kami
             </Typography>
@@ -78,7 +87,7 @@ const Header = () => {
               variant="button"
               component="a"
               className="hover:text-gray-400"
-              sx={{ color: "black", marginRight: 2, textDecoration: 'none' }}
+              sx={{ color: "black", marginRight: 2, textDecoration: "none" }}
             >
               Program
             </Typography>
@@ -88,19 +97,19 @@ const Header = () => {
               variant="button"
               component="a"
               className="hover:text-gray-400"
-              sx={{ color: "black", marginRight: 2, textDecoration: 'none' }}
+              sx={{ color: "black", marginRight: 2, textDecoration: "none" }}
             >
               Donasi
             </Typography>
           </Link>
-          <Link href="/realisasi" passHref>
+          <Link href="/galeri" passHref>
             <Typography
               variant="button"
               component="a"
               className="hover:text-gray-400"
-              sx={{ color: "black", marginRight: 2, textDecoration: 'none' }}
+              sx={{ color: "black", marginRight: 2, textDecoration: "none" }}
             >
-              Realisasi
+              Galeri
             </Typography>
           </Link>
           <Link href="/hubungi" passHref>
@@ -108,7 +117,7 @@ const Header = () => {
               variant="button"
               component="a"
               className="hover:text-gray-400"
-              sx={{ color: "black", textDecoration: 'none' }}
+              sx={{ color: "black", textDecoration: "none" }}
             >
               Hubungi
             </Typography>
