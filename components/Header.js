@@ -164,9 +164,9 @@ const Header = () => {
                 <ListItemText primary="Donasi" />
               </ListItem>
             </Link>
-            <Link href="/realisasi" passHref>
+            <Link href="/galeri" passHref>
               <ListItem button component="a">
-                <ListItemText primary="Realisasi" />
+                <ListItemText primary="Galeri" />
               </ListItem>
             </Link>
             <Link href="/hubungi" passHref>
