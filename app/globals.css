@@ -78,7 +78,11 @@ form > div {
   @apply flex flex-col gap-2;
 }
 
+label {
+  @apply text-base;
+}
+
 input,
 textarea {
-  @apply shadow-md px-6 py-2 border border-slate-300;
+  @apply text-base shadow-md px-6 py-2 border border-slate-300;
 }
