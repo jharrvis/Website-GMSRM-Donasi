@@ -21,12 +21,4 @@ export const activities = [
     img: "/images/img-3.webp",
     link: "https://cakram.net/2021/05/bupati-semarang-resmikan-gua-maria-tuntang/",
   },
-  {
-    title:
-      "Gua Maria Rosa Mystica Tuntang: Pintu Gerbang Menuju Kedamaian Batin",
-    description:
-      "Gua Maria Rosa Mystica Tuntang merupakan destinasi spiritual yang memukau dengan kecantikan alam dan suasana keagamaan yang mendalam. Nikmati perjalanan rohaniah yang penuh makna di dalam gua ini, tempat suci yang memancarkan ketenangan dan kekhusukan.",
-    img: "/images/img-3.webp",
-    link: "https://pesonakota.com/gua-maria-rosa-mystica-tuntang/",
-  },
 ];
