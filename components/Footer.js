@@ -1,5 +1,6 @@
 "use client"; // Menandai komponen sebagai sisi klien
 
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -90,33 +91,33 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
+                  <Link
                     href="/tentang-kami"
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
                     Struktur Organisasi Pengurus{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     href="/program"
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
                     Program{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
-                    href="/realisasi"
+                  <Link
+                    href="/galeri"
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
-                    Realisasi{" "}
-                  </a>
+                    Galeri{" "}
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -126,33 +127,33 @@ const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a
+                  <Link
                     href="/hubungi"
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
                     Kontak{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     href="/faq"
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
                     FAQ's{" "}
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     href="/donasi"
                     className="text-gray-500 transition hover:opacity-75"
                   >
                     {" "}
                     Donasi{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -161,7 +162,9 @@ const Footer = () => {
 
         <div className="fixed bottom-4 right-4">
           <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg">
-            Feedback
+            <Link href="https://api.whatsapp.com/send?phone=62811289056">
+              Hubungi Kmai
+            </Link>
           </button>
         </div>
 

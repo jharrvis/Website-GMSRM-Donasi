@@ -3,28 +3,28 @@ import ImageGallery from "@/components/ImageGallery";
 const images = [
   {
     src: "/images/gallery/image1.webp",
-    alt: "Descriptive text for image 1",
-    description: "This is the description for image 1.",
+    alt: "Logo GMSRM",
+    description: "Logo GMSRM.",
   },
   {
     src: "/images/gallery/image2.webp",
-    alt: "Descriptive text for image 2",
-    description: "This is the description for image 2.",
+    alt: "Patung Bunda Maria Santa Rosa Mystica",
+    description: "Patung Bunda Maria Santa Rosa Mystica.",
   },
   {
     src: "/images/gallery/image3.webp",
-    alt: "Descriptive text for image 3",
-    description: "This is the description for image 3.",
+    alt: "Site Plan GMSRM",
+    description: "Site Plan GMSRM.",
   },
   {
     src: "/images/gallery/image4.webp",
-    alt: "Descriptive text for image 4",
-    description: "This is the description for image 4.",
+    alt: "Kegiatan GMSRM",
+    description: "Kegiatan GMSRM.",
   },
   {
     src: "/images/gallery/image5.webp",
-    alt: "Descriptive text for image 5",
-    description: "This is the description for image 5.",
+    alt: "Foto Bersama GMSRM",
+    description: "Foto Bersama GMSRM.",
   },
 ];
 

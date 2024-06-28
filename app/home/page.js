@@ -39,7 +39,7 @@ export default function HomePage() {
           <div className="w-full h-64 lg:w-1/2 lg:h-auto">
             <img
               className="h-full w-full object-cover"
-              src="/images/hero.webp"
+              src="/images/hero-gmsrm.webp"
               alt="Gua Maria Sancta Rosa Mystica"
             />
           </div>
